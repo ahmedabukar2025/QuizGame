@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- MAIN APP -->
+  <div class="app">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1>🎯 Quiz Game</h1>
+      <p>Test your knowledge</p>
+    </div>
+
+    <!-- SCORE BOARD -->
+    <div class="score-board">
+      <div>Score: <span id="score">0</span></div>
+      <div>Question: <span id="progress">1</span>/5</div>
+    </div>
+
+    <!-- QUIZ BOX -->
+    <div class="quiz-box">
+
+      <!-- QUESTION -->
+      <h2 id="question">Loading...</h2>
+
+      <!-- ANSWERS -->
+      <div id="answers" class="answers"></div>
+
+      <!-- NEXT BUTTON -->
+      <button id="nextBtn">Next Question</button>
+
+      <!-- RESULT -->
+      <div id="result"></div>
+
+      <!-- RESET BUTTON -->
+      <button id="resetBtn" style="display:none;">Restart Quiz</button>
+
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
